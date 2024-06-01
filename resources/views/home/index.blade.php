@@ -289,7 +289,7 @@
           <div class="col-md-3">
             <h4 class="fw-bold">Join Our Newsletter</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Input your E-mail to have our update Newsletter
               </p>
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="yourmail@example.com" />
@@ -307,7 +307,7 @@
           <div class="col-md-1"></div>
           <div class="col-md-5">
             <div class="copyright">
-              &copy; Copyright <strong>Company</strong>. All Right Reserved
+              &copy; Copyright <strong>RCIF</strong>. All Right Reserved
             </div>
             <div class="credits">
               Design by me
