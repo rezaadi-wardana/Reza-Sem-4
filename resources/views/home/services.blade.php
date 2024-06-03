@@ -22,42 +22,42 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
         <div class="container">
-            <a class="navbar-brand fw-bold text-danger" href="#"><img src="image/logo.png" class="" style="height: 1.8em; margin-top: -15px;" alt="..."><span class="text-danger">  CV. Rama Citra</span> Indo Furniture</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          <a class="navbar-brand fw-bold text-danger" href="#"><img src="image/logo.png" class="" style="height: 1.8em; margin-top: -15px;" alt="..."><span class="text-danger">  CV. Rama Citra</span> Indo Furniture</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-                <a class="nav-link fw-bolder" href="/">Home</a>
-            </li>
-            <li class="nav-item dropdown">
+              <li class="nav-item">
+                <a class="nav-link fw-bolder " href="/">Home</a>
+              </li>
+              <li class="nav-item dropdown">
                 <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                About
-                </a>
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a> 
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="about">About Us</a></li>
-                <li><a class="dropdown-item" href="team">Team</a></li>
-                <li>
+                  <li><a class="dropdown-item" href="about">About Us</a></li>
+                  <li><a class="dropdown-item" href="team">Team</a></li>
+                  <li>
                     <a class="dropdown-item" href="testimonials">Testimonials</a>
-                </li>
+                  </li>
                 </ul>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
                 <a class="nav-link fw-bolder active" href="services">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link fw-bolder" href="portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder" href="portfolio">Product</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link fw-bolder" href="contact">Contact</a>
-            </li>
+              </li>
             </ul>
+          </div>
         </div>
-        </div>
-    </nav>
+      </nav>
     <!-- end navbar -->
 
     <!-- breadcumbs  -->
@@ -78,7 +78,7 @@
     <div class="services bg-light py-5">
         <div class="container">
             <div class="title-container">
-                <h1 class="text-center fw-bold text-danger">SERVICES</h1>
+                <h2 class="text-center fw-bold">Services</h2>
             </div>
             <p class="text-center mt-4">Welcome to CV. RCIF Rama Citra Indo Furniture, where quality meets comfort. We are committed to providing the finest furniture, crafted with precision and expertise. Discover our collection that will enhance and perfect every corner of your home</p>
             <div class="row mt-5">
@@ -105,116 +105,119 @@
     <!-- footer -->
     <footer class="mt-5">
         <div class="footer-top bg-dark text-white p-5 ">
-        <div class="container-fluid">
+          <div class="container-fluid">
             <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-3">
+              <div class="col-md-1"></div>
+              <div class="col-md-3">
                 <h4 class="fw-bold">{{$contact->name}}</h2>
-                <p>
+                  <p>
                     {{$contact->description}}
-                </p>
-                <strong>Phone</strong> : <span>{{$contact->telepon}} </span>
-                <br />
-                <strong>Email</strong> : <span>{{$contact->email}} </span>
-            </div>
-            <div class="col-md-2">
+                  </p>
+                  <strong>Phone</strong> : <span>{{$contact->telepon}} </span>
+                  <br />
+                  <strong>Email</strong> : <span>{{$contact->email}} </span>
+              </div>
+              <div class="col-md-2">
                 <h4 class="fw-bold">Our Services</h2>
-                <ul class="list-group list-unstyled">
+                  <ul class="list-group list-unstyled">
                     @foreach($services as $service)
                     <li class="list-item">
-                    <a href="" class="text-decoration-none text-white">
+                      <a href="" class="text-decoration-none text-white">
                         <i class="fa fa-chevron-right primary"></i>
                         {{$service->title}}
-                    </a>
+                      </a>
                     </li>
                     @endforeach
-                </ul>
-            </div>
-            <div class="col-md-2">
+                  </ul>
+              </div>
+              <div class="col-md-2">
                 <h4 class="fw-bold">Useful Links</h2>
-                <ul class="list-group list-unstyled">
+                  <ul class="list-group list-unstyled">
                     <li class="list-item">
-                    <a href="" class="text-decoration-none text-white">
+                      <a href="" class="text-decoration-none text-white">
                         <i class="fa fa-chevron-right primary"></i>
                         Home
-                    </a>
+                      </a>
                     </li>
                     <li class="list-item">
-                    <a href="" class="text-decoration-none text-white">
+                      <a href="" class="text-decoration-none text-white">
                         <i class="fa fa-chevron-right primary"></i>
                         About Us
-                    </a>
+                      </a>
                     </li>
                     <li class="list-item">
-                    <a href="" class="text-decoration-none text-white">
+                      <a href="" class="text-decoration-none text-white">
                         <i class="fa fa-chevron-right primary"></i>
                         Services
-                    </a>
+                      </a>
                     </li>
                     <li class="list-item">
-                    <a href="" class="text-decoration-none text-white">
+                      <a href="" class="text-decoration-none text-white">
                         <i class="fa fa-chevron-right primary"></i>
-                        Portfolio
-                    </a>
+                        Product
+                      </a>
                     </li>
                     <li class="list-item">
-                    <a href="" class="text-decoration-none text-white">
+                      <a href="" class="text-decoration-none text-white">
                         <i class="fa fa-chevron-right primary"></i>
                         Contact
-                    </a>
+                      </a>
                     </li>
-                </ul>
-            </div>
-            <div class="col-md-3">
+                  </ul>
+              </div>
+              <div class="col-md-3">
                 <h4 class="fw-bold">Join Our Newsletter</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <div class="input-group">
+                  <p>
+                    Input your E-mail to have our update Newsletter
+                  </p>
+                  <div class="input-group">
                     <input type="text" class="form-control" placeholder="yourmail@example.com" />
                     <button class="btn btn-subscribe" type="button" id="inputGroupFileAddon04">
-                    Subscribe
+                      Subscribe
                     </button>
-                </div>
+                  </div>
+              </div>
             </div>
-            </div>
-        </div>
+          </div>
         </div>
         <div class="footer-down bg-darker text-white px-5 py-3">
-        <div class="container-fluid">
+          <div class="container-fluid">
             <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-5">
+              <div class="col-md-1"></div>
+              <div class="col-md-5">
                 <div class="copyright">
-                &copy; Copyright <strong>Company</strong>. All Right Reserved
+                  &copy; Copyright <strong>RCIF</strong>. All Right Reserved
                 </div>
                 <div class="credits">
-                Design by me
+                  Design by <i>Muhammad Reza Adi Wardana</i>
                 </div>
-            </div>
-            <div class="col-md-5">
+              </div>
+              <div class="col-md-5">
                 <div class="social-links float-end">
-                <a href="" class="mx-2">
+                  {{-- <a href="" class="mx-2">
                     <i class="fab fa-facebook fa-2x"></i>
-                </a>
-                <a href="" class="mx-2">
+                  </a>
+                  <a href="" class="mx-2">
                     <i class="fab fa-twitter fa-2x"></i>
-                </a>
-                <a href="" class="mx-2">
+                  </a> --}}
+                  <a href="" class="mx-2">
                     <i class="fab fa-instagram fa-2x"></i>
-                </a>
-                <a href="" class="mx-2">
+                  </a>
+                  <a href="" class="mx-2">
+                    <i class="fa fa-envelope fa-2x"></i>
+                  </a>
+                  {{-- <a href="" class="mx-2">
                     <i class="fab fa-youtube fa-2x"></i>
-                </a>
-                <a href="" class="mx-2">
+                  </a> --}}
+                  <a href="" class="mx-2">
                     <i class="fab fa-linkedin fa-2x"></i>
-                </a>
+                  </a>
                 </div>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
-        </div>
-    </footer>
+      </footer>
     <!-- end footer  -->
 
     <!-- to top -->

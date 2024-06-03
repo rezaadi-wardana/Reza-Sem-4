@@ -30,13 +30,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link fw-bolder" href="/">Home</a>
+            <a class="nav-link fw-bolder " href="/">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link fw-bolder dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               About
-            </a>
+            </a> 
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="about">About Us</a></li>
               <li><a class="dropdown-item" href="team">Team</a></li>
@@ -49,7 +49,7 @@
             <a class="nav-link fw-bolder" href="services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bolder" href="portfolio">Portfolio</a>
+            <a class="nav-link fw-bolder" href="portfolio">Product</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bolder" href="contact">Contact</a>
@@ -157,7 +157,7 @@
                 <li class="list-item">
                   <a href="" class="text-decoration-none text-white">
                     <i class="fa fa-chevron-right primary"></i>
-                    Portfolio
+                    Product
                   </a>
                 </li>
                 <li class="list-item">
@@ -171,7 +171,7 @@
           <div class="col-md-3">
             <h4 class="fw-bold">Join Our Newsletter</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Input your E-mail to have our update Newsletter
               </p>
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="yourmail@example.com" />
@@ -189,26 +189,29 @@
           <div class="col-md-1"></div>
           <div class="col-md-5">
             <div class="copyright">
-              &copy; Copyright <strong>Company</strong>. All Right Reserved
+              &copy; Copyright <strong>RCIF</strong>. All Right Reserved
             </div>
             <div class="credits">
-              Design by me
+              Design by <i>Muhammad Reza Adi Wardana</i>
             </div>
           </div>
           <div class="col-md-5">
             <div class="social-links float-end">
-              <a href="" class="mx-2">
+              {{-- <a href="" class="mx-2">
                 <i class="fab fa-facebook fa-2x"></i>
               </a>
               <a href="" class="mx-2">
                 <i class="fab fa-twitter fa-2x"></i>
-              </a>
+              </a> --}}
               <a href="" class="mx-2">
                 <i class="fab fa-instagram fa-2x"></i>
               </a>
               <a href="" class="mx-2">
-                <i class="fab fa-youtube fa-2x"></i>
+                <i class="fa fa-envelope fa-2x"></i>
               </a>
+              {{-- <a href="" class="mx-2">
+                <i class="fab fa-youtube fa-2x"></i>
+              </a> --}}
               <a href="" class="mx-2">
                 <i class="fab fa-linkedin fa-2x"></i>
               </a>

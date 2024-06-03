@@ -51,7 +51,7 @@
             <a class="nav-link fw-bolder" href="services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bolder" href="portfolio">Portfolio</a>
+            <a class="nav-link fw-bolder" href="portfolio">Product</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bolder" href="contact">Contact</a>
@@ -178,15 +178,15 @@
   <div class="portfolio-us mt-5">
     <div class="container">
       <div class="title-container">
-        <h2 class="text-center fw-bold">PORTFOLIO</h2>
+        <h2 class="text-center fw-bold">PRODUCT</h2>
       </div>
       <div class="row mt-4">
         <div class="col-md-12 d-flex justify-content-center">
           <ul class="list-unstyled d-flex portfolio-filters">
             <li data-filter="*" class="py-2 px-4 filter-active text-white">ALL</li>
-            <li data-filter=".filter-web" class="py-2 px-4">Web</li>
-            <li data-filter=".filter-design" class="py-2 px-4">Design</li>
-            <li data-filter=".filter-photo" class="py-2 px-4">Photography</li>
+            <li data-filter=".filter-web" class="py-2 px-4">Chair</li>
+            <li data-filter=".filter-design" class="py-2 px-4">Table</li>
+            <li data-filter=".filter-photo" class="py-2 px-4">Other..</li>
           </ul>
         </div>
       </div>
@@ -196,7 +196,7 @@
             <div class="mansory-sizer"></div>
             @foreach ($portfolios as $portfolio)
             <div class="mansory-item m-2 portfolio-item filter-web">
-              <img src="image/{{$portfolio->image}}" alt="" class="img-fluid" />
+              <img src="image/{{$portfolio->image}}" alt="" class="img-fluid"  data-aos="zoom-in" />
             </div>
             @endforeach
           </div>
@@ -275,7 +275,7 @@
                 <li class="list-item">
                   <a href="" class="text-decoration-none text-white">
                     <i class="fa fa-chevron-right primary"></i>
-                    Portfolio
+                    Product
                   </a>
                 </li>
                 <li class="list-item">
@@ -310,23 +310,26 @@
               &copy; Copyright <strong>RCIF</strong>. All Right Reserved
             </div>
             <div class="credits">
-              Design by me
+              Design by <i>Muhammad Reza Adi Wardana</i>
             </div>
           </div>
           <div class="col-md-5">
             <div class="social-links float-end">
-              <a href="" class="mx-2">
+              {{-- <a href="" class="mx-2">
                 <i class="fab fa-facebook fa-2x"></i>
               </a>
               <a href="" class="mx-2">
                 <i class="fab fa-twitter fa-2x"></i>
-              </a>
+              </a> --}}
               <a href="" class="mx-2">
                 <i class="fab fa-instagram fa-2x"></i>
               </a>
               <a href="" class="mx-2">
-                <i class="fab fa-youtube fa-2x"></i>
+                <i class="fa fa-envelope fa-2x"></i>
               </a>
+              {{-- <a href="" class="mx-2">
+                <i class="fab fa-youtube fa-2x"></i>
+              </a> --}}
               <a href="" class="mx-2">
                 <i class="fab fa-linkedin fa-2x"></i>
               </a>
