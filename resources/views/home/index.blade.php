@@ -197,7 +197,9 @@
             @foreach ($portfolios as $portfolio)
             <div class="mansory-item m-2 portfolio-item filter-web">
               <img src="image/{{$portfolio->image}}" alt="" class="img-fluid"  data-aos="zoom-in" />
+              <div class="card-title fw-bolder mt-4">{{ $portfolio->title }}</div>
             </div>
+
             @endforeach
           </div>
         </div>

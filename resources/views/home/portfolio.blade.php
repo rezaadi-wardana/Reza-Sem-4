@@ -103,8 +103,8 @@
                             {{-- <div class="mansory-item m-2 portfolio-item filter-web">
                         <img src="image/{{$portfolio->image}}" alt="" class="img-fluid" />
                         </div> --}}
-                            <div class="col-md-4">
-                                <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
+                            <div class="col-md-4 filter-chair">
+                                <div class="card border-0 p-4 mt-3" data-aos="zoom-in">
                                     <div class="card-body">
                                         <div class="card-icon">
                                             <img src="image/{{ $portfolio->image }}" alt="" class="img-fluid"

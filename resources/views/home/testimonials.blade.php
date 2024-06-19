@@ -80,9 +80,7 @@
       <div class="title-container">
         <h2 class="text-center fw-bold">Testimonials</h2>
       </div>
-      <p class="text-center mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi vero voluptas ea
-        molestias eum illo, ducimus eius quisquam repellendus accusamus rerum! Repeliendus enim incidunt assumenda
-        pariatur, quisquam evaniet numquam.</p>
+      <p class="text-center mt-4">Thats All Testimonial from our customer.</p>
       <div class="row mt-5">
         @foreach($testimonials as $testimonial)
         <div class="col-md-6 mt-4" data-aos="fade-right">
@@ -90,7 +88,7 @@
             <div class="card-body testimonial-item p-5">
               <img src="image/{{$testimonial->image}}" alt="" class="img-testimonial float-start rounded-circle me-3">
               <strong class="d-block">{{$testimonial->title}}</strong>
-              <small class="text-muted">CEO & Founder</small>
+              <small class="text-muted">Customer</small>
               <p class="fst-italic mt-3 fs-5">
                 <i class="fa fa-quote-left"></i>
                 {{$testimonial->description}}

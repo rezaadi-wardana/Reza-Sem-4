@@ -80,10 +80,8 @@
       <div class="title-container">
         <h2 class="text-center fw-bold">OUR TEAM</h2>
       </div>
-      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi vero voluptas ea
-        molestias eum illo, ducimus eius quisquam repellendus accusamus rerum! Repeliendus enim incidunt assumenda
-        pariatur, quisquam evaniet numquam.</p>
-      <div class="row">
+      <p class="text-center">This is our Structure Company of Rama Citra Indo Furniture.</p>
+      <div class="row justify-content-center">
         @foreach ($teams as $team)
         <div class="col-md-3" data-aos="fade-up">
           <div class="card" style="width: 18rem;">
